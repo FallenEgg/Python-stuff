@@ -8,7 +8,7 @@ lower = int(input("Enter lower bound number:- "))
 upper = int (input("Enter higher bound number:- "))
 
 x = random.randint(lower, upper)
-print("\nt You've only ", round(math.log(upper - lower + 1, 2)), " chances to guess the integer")
+print("\n You've only ", round(math.log(upper - lower + 1, 2)), " chances to guess the integer")
 
 #initialize number of guesses
 count = 0
